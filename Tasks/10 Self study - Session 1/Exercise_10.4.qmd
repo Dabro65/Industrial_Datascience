@@ -232,7 +232,8 @@ Torque and rotational speed show a negative relationship.
 
 ## Are there any non-linear patterns visible?
 
-No clear non-linear patterns were identified in the scatterplots.
+A clear nonlinear relationship is visible between torque and rotational speed. Torque 
+decreases as rotational speed increases, but the relationship is not a straight line.
 
 ## How are the distributions shaped?
 
@@ -240,4 +241,5 @@ Torque is approximately normally distributed, with most measurements around 40 N
 
 Rotational speed has a right-skewed distribution, with most values around 1500 rpm.
 
-Air temperature does not show a clear normal distribution and has an irregular distribution over the measured range.
+Air temperature does not show a clear normal distribution and has an 
+irregular distribution over the measured range.

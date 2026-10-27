@@ -8502,9 +8502,11 @@ Discuss the results.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Forward-Fill">Forward Fill<a class="anchor-link" href="#Forward-Fill">¶</a></h2><p>Füllt die Lücke mit dem letzten verfügbaren Wert auf.</p>
+<h2 id="Backward-Fill">Backward Fill<a class="anchor-link" href="#Backward-Fill">¶</a></h2><p>Füllt die Lücke mit dem nächsten verfügbaren Wert auf.</p>
 <h2 id="Lineare-Interpolation">Lineare Interpolation<a class="anchor-link" href="#Lineare-Interpolation">¶</a></h2><p>Verbindet die Randwerte geradlinig. Gekrümmte Verläufe sowie Hoch- und Tiefpunkte innerhalb einer Lücke werden nicht nachgebildet.</p>
 <h2 id="Polynomiale-Interpolation">Polynomiale Interpolation<a class="anchor-link" href="#Polynomiale-Interpolation">¶</a></h2><p>Erzeugt gekrümmte Übergänge, kann aber insbesondere bei längeren Lücken vom Referenzverlauf abweichen.</p>
-<h2 id="Spline-Interpolation">Spline-Interpolation<a class="anchor-link" href="#Spline-Interpolation">¶</a></h2><p>Erzeugt formtreue Übergänge zwischen den bekannten Werten und vermeidet Überschwinger. Fehlende saisonale Hoch- und Tiefpunkte werden dadurch jedoch nicht automatisch rekonstruiert.</p>
+<h2 id="Spline-Interpolation-(pchip)">Spline-Interpolation (pchip)<a class="anchor-link" href="#Spline-Interpolation-(pchip)">¶</a></h2><p>Erzeugt formtreue Übergänge zwischen den bekannten Werten und vermeidet Überschwinger. Fehlende saisonale Hoch- und Tiefpunkte werden dadurch jedoch nicht automatisch rekonstruiert.</p>
 <h2 id="Beurteilung">Beurteilung<a class="anchor-link" href="#Beurteilung">¶</a></h2><p>Für die vorliegende Reihe erscheinen interpolierende Verfahren geeigneter als Forward Fill und Backward Fill, weil sie Übergänge zwischen den bekannten Werten berücksichtigen. Die polynomiale Variante liefert im Plot an vielen Stellen einen plausiblen gekrümmten Verlauf. Eine verlässliche Rangfolge der Methoden lässt sich allein aus dem Aussehen jedoch nicht ableiten. Keine der verwendeten Methoden modelliert die saisonale Struktur ausdrücklich.</p>
 </div>
 </div>

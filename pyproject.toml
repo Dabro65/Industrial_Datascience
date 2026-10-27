@@ -20,6 +20,7 @@ dependencies = [
     "seaborn>=0.13.2",
     "sktime>=1.2.0",
     "statsmodels>=0.15.0",
+    "tensorflow>=2.22.0rc0",
     "tslearn>=0.10.0",
 ]
 
